@@ -1,0 +1,8 @@
+name: OnekMOTD
+version: 1.0.0
+main: fr.gonzyui.Main
+author: gonzyui
+softdepend: [ProtocolLib]
+commands:
+  cleanmotd:
+    description: "Commande principale du plugin"

@@ -1,0 +1,42 @@
+motd:
+  enabled: true
+  # Placeholders: %onlineplayers% %maxplayers%
+  motds:
+    - |-
+      &b&lCleanMoTD &f&lDefault &b&lMoTD
+      &7There are &a%onlineplayers%&7 players online!
+    - |-
+      &aCleanMoTD Default MoTD &c[Optimized]
+      &d&lCome and enjoy our brand new games!
+  # Quand on passe la souris sur le nombre de joueurs
+sample:
+  enabled: true
+  # Placeholders: %onlineplayers% %maxplayers%
+  samples:
+    - |-
+      &b&lCleanMoTD &f&lDefault &b&lSample
+      &7Online: &a%onlineplayers%&8/&a%maxplayers%
+      &5
+    - |-
+      &aCleanMoTD Default Sample &c[Optimized]
+      &d&lNew Sample feature!
+      &5
+
+protocol:
+  enabled: faklse
+  # Protocol name
+  name: "FlameCord 1.7-1.16.3"
+cache:
+  enabled: true
+  # Temps en ms
+  time: 30000
+
+maxplayers:
+  enabled: true
+  maxplayers: 1400
+  justonemore: true
+fakeplayers:
+  enabled: false
+  amount: 3
+  # "STATIC", "RANDOM", "DIVISION"
+  mode: "DIVISION"
